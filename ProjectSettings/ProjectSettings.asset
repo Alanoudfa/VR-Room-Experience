@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: com.Unity.CreateWithVR
-  productName: VR Room
+  companyName: Alanoud_Alfakhri
+  productName: Alanoud's VR Room Experience
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -155,7 +155,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.com.Unity.CreateWithVR.VRRoom
-    Standalone: com.com.Aaron.CreateWithVR.Test-3-with-quest-support
+    Standalone: com.Alanoud-Alfakhri.Alanoud-s-VR-Room-Experience
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -276,7 +276,15 @@ PlayerSettings:
   AndroidMinifyDebug: 0
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 1596010265932800287, guid: 18eb93125c4dc48309f35bea3f9afe65,
+        type: 2}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: iPhone
     m_Icons:
